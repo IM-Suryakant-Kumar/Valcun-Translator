@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+NKo&family=Roboto+Condensed&display=swap');
+
+:root {
+    --primary-color: #155e75;
+    --secondary-color: #0ea5e9;
+    --dark-gray: #64748b;
+    --white-color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--primary-color);
+}
+
+
+/* Links Section */
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+/* Lists Section */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* Navbar Section */
+
+.navigation {
+    text-align: center;
+    color: var(--secondary-color);
+    margin: 1rem 0rem;
+}
+
+/* Header Section */
+
+.header .hero-img {
+    width: 10rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+/* Main Section */
+
+#text-input {
+    width: 90vw;
+    height: 6rem;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.translator {
+    text-align: center;
+    display: block;
+    padding: 1rem 2rem;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    box-shadow: 1px 1px 0.2rem 1px var(--secondary-color);
+    color: var(--secondary-color);
+    border-radius: 1rem;
+    margin: 1.5rem auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.click {
+    box-shadow: 0px 0px 0rem 0px var(--secondary-color);
+}
+
+.output {
+    width: 90vw;
+    height: 6rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    text-shadow: 1px 1px 0.1rem var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+/* Footer Section */
+
+.footer {
+    text-align: center;
+    color: var(--secondary-color);
+    margin-top: 2rem;
+}
+
+.footer .link {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+/* Media-queries Section */
+
+@media screen and (max-width: 345px) {
+
+    /* Footer Section */
+
+    .footer .list-item-inline {
+        padding: 0rem;
+    }
+
+    .footer .link {
+        padding: 0.5rem 0.86rem;
+    }
+
+}
+
+@media screen and (min-width: 344px) and (max-width: 400px) {
+
+    /* Footer Section */
+
+    .footer .link {
+        padding: 0.5rem 0.79rem;
+    }
+}
