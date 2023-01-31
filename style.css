@@ -15,6 +15,9 @@
 body {
     padding: 0;
     margin: 0;
+    width: 95vw;
+    display: block;
+    margin: auto;
     background-color: var(--primary-color);
 }
 
@@ -57,7 +60,7 @@ body {
 /* Main Section */
 
 #text-input {
-    width: 90vw;
+    width: 80vw;
     height: 6rem;
     display: block;
     text-align: center;
@@ -90,7 +93,7 @@ body {
 
 .output {
     width: 90vw;
-    height: 6rem;
+    height: 5rem;
     text-align: center;
     padding: 1rem;
     margin: 1.5rem auto;
@@ -140,5 +143,12 @@ body {
 
     .footer .link {
         padding: 0.5rem 0.79rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #text-input {
+        width: 50vw;
+        height: 6rem;
     }
 }
