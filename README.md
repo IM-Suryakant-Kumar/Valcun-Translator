@@ -1,4 +1,4 @@
-# Valcun Translator
+# Vulcan Translator
 A app made using a mock api will convert English language to Vulcan spoken by the Vulcuns of the planet Vulcun. Vulcans are a fictional extraterrestrial humanoid species in the Star Trek franchise.
 
 ## Want to use 
